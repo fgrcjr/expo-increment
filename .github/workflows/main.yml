@@ -42,9 +42,6 @@ jobs:
     - name: Run tests
       run: npm test
     
-    # Optionally, you can add test coverage reporting
-    - name: Generate test coverage
-      run: npm test -- --coverage
     
     # Optionally, you can upload coverage reports to a service like Codecov
     # - name: Upload coverage to Codecov
